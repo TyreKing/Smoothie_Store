@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sucks.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <title>Sucks-Products</title>
+</head>
+
+<body>
+    <header>
+        <div class="img-container">
+            <img src="images/logo.jpg" alt="Place-Holder">
+            <div class="login-container">
+                <a href="login.html"><button class="login">Login</button></a>
+                <a href="register.html"><button class="register">Register</button></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <a href="home.html">
+                    <li class="nav-item">Home</li>
+                </a>
+                <a href="About.html">
+                    <li class="nav-item" id="middle-nav">About</li>
+                </a>
+                <a href="Sucks.html">
+                    <li class="nav-item">Sucks</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="purchase-container">
+        <div class="products" id="products">
+            <ul>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Berry Berry</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$13.99</p>
+                            <button class="add-btn" id="0" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Smoothie Original</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$11.99</p>
+                            <button class="add-btn" id="1" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Peanut Butter Chest Nut</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$12.99</p>
+                            <button class="add-btn" id="2" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">The Juicer 3.0</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$9.25</p>
+                            <button class="add-btn" id="3" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Fruit and Ice</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$11.99</p>
+                            <button class="add-btn" id="4" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Brain Freeze Blast</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$11.99</p>
+                            <button class="add-btn" id="5" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Sucker's Special</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$12.34</p>
+                            <button class="add-btn" id="6" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">The Juicer</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$11.99</p>
+                            <button class="add-btn" id="7" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-container">
+                    <div class="item">
+                        <div><img src="images/prod1.jpeg" alt="product"></div>
+                        <div>
+                            <h2 class="name">Just a Smoothie</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Animi odio et nostrum facilis eum ipsum modi culpa similique
+                                dolorem nobis perferendis aut eaque quo quasi eveniet iste velit, sed quos.
+                            </p>
+                            <p class="price">$11.99</p>
+                            <button class="add-btn" id="8" onclick="addToCart(this)">Add To Cart</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cart">
+            <h1>Cart</h1>
+            <hr>
+            <h3>Add Items To The Cart Below</h3>
+            <ul class="items" id="items">
+            </ul>
+            <hr>
+            <h4>Total:</h4>
+            <h5 id="total">$0</h5>
+        </div>
+    </div>
+
+    <section class="content-extra">
+        <div class="content-item">
+            <h3>Coming Soon</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Ex tempore quos aliquid
+                optio laborum commodi sunt tenetur a corporis.
+                Exercitationem, sint inventore magni repudiandae
+                ab atque reiciendis voluptates tempore veritatis.</p>
+        </div>
+        <div class="content-item">
+            <h3>Testimonials</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Ex tempore quos aliquid
+                optio laborum commodi sunt tenetur a corporis.
+                Exercitationem, sint inventore magni repudiandae
+                ab atque reiciendis voluptates tempore veritatis.</p>
+        </div>
+        <div class="content-item">
+            <h3>Suck</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Ex tempore quos aliquid
+                optio laborum commodi sunt tenetur a corporis.
+                Exercitationem, sint inventore magni repudiandae
+                ab atque reiciendis voluptates tempore veritatis.</p>
+        </div>
+    </section>
+    <footer>
+        <h5>Copy Cat Rights</h5>
+    </footer>
+
+</body>
+
+</html>

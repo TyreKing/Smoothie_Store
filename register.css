@@ -1,0 +1,19 @@
+.register-content{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    background-image: url('images/loginBackground.jpeg');
+    
+    color: #fff;
+}
+
+.register-form{
+    background-color: #8f483fdc;
+    padding: 4.2% 10%;
+    margin-top: 1%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
