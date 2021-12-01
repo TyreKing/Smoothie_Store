@@ -1,4 +1,4 @@
-# Smoothie_Store
+# Smoothie_Store  https://tyreking.github.io/Smoothie_Store/
 Simple website to demonstrate basic HTML, CSS, and JS
 
 User can navigate from home, about, login, register, and sucks.
